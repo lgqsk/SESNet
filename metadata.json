@@ -1,0 +1,16 @@
+{
+"augmentation": true,
+"num_gpus": 1,
+"num_workers": 8,
+
+"image_chanels": 3,
+"init_channels": 32,
+"epochs": 100,
+"batch_size": 16,
+"learning_rate": 5e-3,
+"loss_function": "bce",
+"bilinear": false,
+
+"dataset_dir": "../SVCD/",
+"log_dir": "./log/"
+}
